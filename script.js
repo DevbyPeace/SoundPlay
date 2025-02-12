@@ -8,7 +8,7 @@ const header = document.querySelector("header");
 
 //   Audio
 const newSound = function () {
-  let audio = new Audio("Voicy_Really Nigga.mp3");
+  let audio = new Audio("audio.mp3");
   audio.play();
 };
 
