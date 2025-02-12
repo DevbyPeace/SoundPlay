@@ -10,6 +10,7 @@ const header = document.querySelector("header");
 const newSound = function () {
   let audio = new Audio("audio.mp3");
   audio.play();
+  body.style.backgroundColor = "pink";
 };
 
 // Bg color
