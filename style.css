@@ -8,6 +8,14 @@ body {
   background-color: black;
 }
 
+#btnlight {
+  font-size: 50px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
 header {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -26,4 +34,14 @@ header {
   font-size: large;
   border-radius: 30px;
   border: 0px;
+  background-color: white;
+  color: black;
+}
+
+.rowtop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
 }
