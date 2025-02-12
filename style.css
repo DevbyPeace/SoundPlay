@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 30px;
+}
+
+.rowmid {
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+}
+
+.rowmid .audio {
+  width: 20rem;
+  height: 3rem;
+  font-size: large;
+  border-radius: 30px;
+  border: 0px;
+}
